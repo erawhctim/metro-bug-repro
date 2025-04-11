@@ -4,14 +4,20 @@ minSdk = "26"
 targetSdk = "34"
 
 agp = "8.9.1"
+androidxActivity = "1.10.1"
 androidxComposeBom = "2025.03.01"
+androidxFragmentKtx = "1.8.6"
 kotlin="2.1.20"
 kotlinSymbolProcessing="2.1.20-1.0.31"
 realmGradlePlugin = "10.19.0"
+rxjava = "2.2.21"
 
 [libraries]
+androidxComposeActivity = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
 androidxComposeBom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
 androidxComposeUi = { group = "androidx.compose.ui", name = "ui" }
+androidxFragmentKtx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidxFragmentKtx" }
+rxjava = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxjava" }
 
 # classpath plugins
 pluginRealm = { group = "io.realm", name = "realm-gradle-plugin", version.ref = "realmGradlePlugin" }

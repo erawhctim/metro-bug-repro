@@ -37,12 +37,10 @@ android {
     }
 }
 
-repositories {
-    // Use Maven Central for resolving dependencies.
-    mavenCentral()
-}
-
 dependencies {
     implementation(platform(libs.androidxComposeBom))
+    implementation(libs.androidxComposeActivity)
     implementation(libs.androidxComposeUi)
+    implementation(libs.androidxFragmentKtx)
+    implementation(libs.rxjava)
 }
