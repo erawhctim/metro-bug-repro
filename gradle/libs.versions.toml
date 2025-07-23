@@ -7,6 +7,7 @@ agp = "8.9.3"
 androidxActivity = "1.10.1"
 androidxComposeBom = "2025.07.00"
 androidxFragmentKtx = "1.8.6"
+dagger="2.57"
 kotlin="2.2.0"
 kotlinSymbolProcessing="2.2.0-2.0.2"
 rxjava = "2.2.21"
@@ -16,6 +17,8 @@ androidxComposeActivity = { group = "androidx.activity", name = "activity-compos
 androidxComposeBom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
 androidxComposeUi = { group = "androidx.compose.ui", name = "ui" }
 androidxFragmentKtx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidxFragmentKtx" }
+dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
+daggerCompiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
 rxjava = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxjava" }
 
 [plugins]

@@ -31,4 +31,6 @@ dependencies {
     implementation(libs.androidxComposeUi)
     implementation(libs.androidxFragmentKtx)
     implementation(libs.rxjava)
+    implementation(libs.dagger)
+    ksp(libs.daggerCompiler)
 }
