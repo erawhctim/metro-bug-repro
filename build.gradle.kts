@@ -10,7 +10,6 @@ plugins {
     alias(libs.plugins.agpLibrary) apply false
     alias(libs.plugins.kotlin) apply false
     alias(libs.plugins.compose) apply false
-    alias(libs.plugins.ksp) apply false
     alias(libs.plugins.metro)
     alias(libs.plugins.kotlinAndroid) apply false
 }
