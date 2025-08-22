@@ -1,15 +1,16 @@
 [versions]
 compileSdk = "36"
-minSdk = "26"
-targetSdk = "34"
+minSdk = "28"
+targetSdk = "36"
 
-agp = "8.9.3"
+agp = "8.12.1"
 androidxActivity = "1.10.1"
-androidxComposeBom = "2025.07.00"
-androidxFragmentKtx = "1.8.6"
-dagger="2.57"
-kotlin="2.2.0"
-kotlinSymbolProcessing="2.2.0-2.0.2"
+androidxComposeBom = "2025.08.00"
+androidxFragmentKtx = "1.8.9"
+dagger="2.57.1"
+kotlin="2.2.10"
+kotlinSymbolProcessing="2.2.10-2.0.2"
+metro = "0.6.1"
 rxjava = "2.2.21"
 
 [libraries]
@@ -27,5 +28,5 @@ agpLibrary = { id = "com.android.library", version.ref = "agp" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "kotlinSymbolProcessing" }
-metro = { id = "dev.zacsweers.metro", version = "0.5.2" }
+metro = { id = "dev.zacsweers.metro", version.ref = "metro" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

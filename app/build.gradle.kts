@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.agpApp)
     alias(libs.plugins.compose)
-    alias(libs.plugins.ksp)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.metro)
 }
@@ -20,7 +19,6 @@ android {
     }
 
     buildFeatures {
-        viewBinding = true
         compose = true
     }
 }
@@ -32,5 +30,4 @@ dependencies {
     implementation(libs.androidxFragmentKtx)
     implementation(libs.rxjava)
     implementation(libs.dagger)
-    ksp(libs.daggerCompiler)
 }
